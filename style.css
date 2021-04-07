@@ -116,7 +116,7 @@ header div img{
 
 
         /* تصميم خاص للنقال */
-        @media(max-width: 1080px)
+        @media(max-width: 2000px)
         {
             .navbar-item { 
             position: relative;
