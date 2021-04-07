@@ -1,0 +1,144 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    direction:ltr;
+    font-family:sans-serif;
+}
+
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0px;
+}
+.navbar-item{
+    display: inline-block;
+    height: 60px;
+    width: 130px;
+    line-height: 50px;
+    text-align: center;
+    transition: .5s;
+}
+
+.navbar-item2{
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    transition: .5s;
+}
+
+.navbar-item:hover{
+    background-color: rgb(75, 72, 72);
+    transition: .5s;
+}
+
+.navbar-item2:hover{
+    background-color: rgb(75, 72, 72);
+    transition: .5s;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact;
+    line-height: 60px;
+}
+
+.navbar-link:hover{
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+nav img{
+    height: 50px;
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: 55px;
+}
+
+header div img{
+    position: relative;
+    bottom: 46px;
+}
+
+.main-section dt{
+    font-family: Impact;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+
+.main-section {
+    margin-left: 20px;
+}
+
+.galary img{
+        width: 350px;
+        height: 300px;
+        background-color: white;
+        /* padding: 1%; */
+        margin: 3px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 2%;
+    }
+
+.galary{
+        margin-top: 100px;
+    }
+.logo{
+        margin-top: 50px;
+    }
+.logo img{
+        margin-left: 50px;
+    }
+
+    footer p, a{
+        margin-left: 10px;
+        font-family: serif;
+        font-size: 25px;
+    }
+
+    footer{
+        font-size: 25px;
+        margin: 5px 0px 25px 25px;
+    }
+
+
+        /* تصميم خاص للنقال */
+        @media(max-width: 650px)
+        {
+            .navbar-item { 
+            position: relative;
+            display: block;
+            width: 100%;
+            text-align: center;  
+           }
+           .navbar-item2 { 
+            position: relative;
+            display: block;
+            width: 100%;
+            text-align: center;  
+           }
+           nav img{
+               display: block;
+               position: relative;
+               margin-top: 15%;
+               margin-right: 26%;
+           }
+           nav{
+               margin-right: 7%;
+           }
+            
+        }
+    
